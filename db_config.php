@@ -13,9 +13,7 @@ class DB_config{
  {
     $this->pdo=new PDO("mysql:host=$this->host;dbname=$this->db_name",
     $this->db_user,$this->dp_password);
-    // $this ->$pdo=new PDO("mysql:host=$this->host;dbname= $this->$db_name" ,
-     //$this->$db_user,$this->$dp_password);
-
+   
 
  }
 
